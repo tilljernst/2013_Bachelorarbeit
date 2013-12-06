@@ -16,15 +16,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[
-	oneside,
+	twoside,
 	12pt,
 	parskip=half,
 	ngerman,
-	%bibtotocnumbered,
-	%bibliography=totocnumbered,
-	%listof=totoc, %Abbildungs- und Tabbellenverzeichnis ins Inhaltsverzeichnis aufnehmen
 	version=first
-	%liststotoc
 ]{scrreprt}
 %article scrartcl
 %report scrreprt
@@ -42,7 +38,8 @@
 \usepackage{titlesec}
 \usepackage{mathptmx} 
 \usepackage[scaled=.90]{helvet}
-\usepackage{courier}
+%\usepackage{courier}
+\usepackage[urw-garamond]{mathdesign}
 \usepackage{setspace} %Zeilenabstand
 \onehalfspacing % 1,5 Zeilenabstand
 %\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
@@ -54,7 +51,7 @@
 \usepackage[squaren]{SIunits}
 \usepackage{graphicx}
 \usepackage{url}
-\usepackage{geometry}
+\usepackage[a4paper]{geometry}
 \usepackage[absolute]{textpos}
 \usepackage{makeidx}
 \usepackage{colortbl}
@@ -121,7 +118,7 @@
 \renewcommand{\cftaftertoctitle}{\hfill}
 
 %define page margin
-\geometry{a4paper, top=25mm, left=25mm, right=25mm, bottom=25mm,headsep=10mm,footskip=10mm}
+\geometry{a4paper, top=25.4mm, left=31.8mm, right=25.4mm, bottom=25.4mm,headsep=10mm,footskip=10mm}
 
 %textpos parameter
 \setlength{\TPHorizModule}{30mm}
