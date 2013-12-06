@@ -1,0 +1,90 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%_____________ ___    _____  __      __ 
+%\____    /   |   \  /  _  \/  \    /  \  Institute of Applied
+%  /     /    ~    \/  /_\  \   \/\/   /  Psychology
+% /     /\    Y    /    |    \        /   Zürcher Hochschule 
+%/_______ \___|_  /\____|__  /\__/\  /    fuer Angewandte Wissen.
+%        \/     \/         \/      \/                           
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Project     : Bachelorarbeit
+% Title       : Auswirkung von Media-Multitasking auf das SWB
+% File        : doc.tex Rev. 00
+% Date        : 06.12.2013
+% Author      : Till J. Ernst
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{header}
+
+\begin{document}
+\title{Auswirkung von Media-Multitasking auf das SWB}
+\author{Till J. Ernst}
+
+%PDF Titelblatt
+\includepdf{images/Bachelorarbeit_Titelblatt.pdf}
+
+%PDF Bestimmungsblatt
+\includepdf{images/Bachelorarbeit_Bestimmungen.pdf}
+  
+\include{content/acronyms}
+
+% Danksagung
+\include{content/danksagung}
+
+% Vorwort
+\include{content/vorwort}
+
+% Abstract
+\pagenumbering{gobble} 
+\include{content/abstract} 
+
+% Inhaltsverzeichnis
+\setcounter{page}{1}
+\pagenumbering{Roman}
+\tableofcontents
+\newpage
+
+% Abbildungsverzeichnis
+\listoffigures
+\newpage
+%\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+
+% Tabellenverzeichnis
+\listoftables
+\newpage
+%\addcontentsline{toc}{chapter}{Tabellenverzeichnis}
+
+% Abkürzungsverzeichnis
+\include{content/glossar}
+\printglossary[title=Abkürzungen,style=listwithwidth]
+\glsaddall
+\newpage
+
+% Kapitel
+% -----------------------------------
+\setcounter{page}{1}
+\pagenumbering{arabic}
+% Einleitung
+\include{content/einleitung}
+
+% Methode
+\include{content/methode}
+
+% Ergebnisse
+\include{content/ergebnisse}
+
+%Diskussion
+\include{content/diskussion}
+% -----------------------------------
+
+% Literaturverzeichnis
+\include{content/literatur}
+
+% Anhang
+\include{content/anhang}
+
+% Blatt mit Unterschrift
+\includepdf{images/Bachelorarbeit_Unterschrift.pdf}
+
+\end{document}
