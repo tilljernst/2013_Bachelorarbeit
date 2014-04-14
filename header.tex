@@ -16,7 +16,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[
-	twoside,
+	oneside,
 	12pt,
 	parskip=half,
 	ngerman,
@@ -100,27 +100,17 @@
 %***********************************************************************
 % various styles
 %**********************************************************************
-
 %create index
 \makeindex
 
 %define pagestyle
 \pagestyle{fancy}
 
-%für ZHAW spezifisches Layout
-\newcommand{\mychapter}[2]{
-    \setcounter{chapter}{#1}
-    \setcounter{section}{0}
-    \chapter*{#2}
-    \addcontentsline{toc}{chapter}{#2}
-}
-
-% for TOC centred title
-\renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}
-\renewcommand{\cftaftertoctitle}{\hfill}
+%use sans-serif font 
+%\renewcommand{\familydefault}{\sfdefault}
 
 %define page margin
-\geometry{a4paper, top=25.4mm, left=31.8mm, right=25.4mm, bottom=25.4mm,headsep=10mm,footskip=10mm}
+\geometry{a4paper, top=25mm, left=25mm, right=25mm, bottom=25mm,headsep=10mm,footskip=10mm}
 
 %textpos parameter
 \setlength{\TPHorizModule}{30mm}
@@ -146,6 +136,12 @@
 \fancyfoot[C]{\textbf \Large \thepage} 
 \renewcommand{\footrulewidth}{0pt}
 \renewcommand{\arraystretch}{1.5} % für tabellen
+
+%\fancyhead[LO,RE]{} %clear headings for contents 
+%\fancyhead[RO,LE]{\nouppercase{\rightmark}} %right odd pages and left even pages
+%\fancyhead[LO,RE]{\MakeUppercase{\leftmark}} %left odd pages and right even pages
+%\fancyfoot[LE,RO]{\thepage} %page numbering
+%\fancyfoot[C]{} %clear centered page numbering 
 
 %define some colors
 \definecolor{gray}{rgb}{0.95,0.95,0.95}
