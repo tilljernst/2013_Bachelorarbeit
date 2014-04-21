@@ -32,7 +32,9 @@
 %***********************************************************************
 % include some libs
 %***********************************************************************	
-\usepackage[utf8x]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
 \usepackage{listings}
 \usepackage{color}
 \usepackage{fancyhdr}
@@ -45,12 +47,10 @@
 \usepackage{setspace} %Zeilenabstand
 \onehalfspacing % 1,5 Zeilenabstand
 %\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
-\usepackage[T1]{fontenc}
 \usepackage{german}
 \usepackage[]{ragged2e}
 %\usepackage[ngerman]{babel}
 %\usepackage[babel]{csquotes}
-\usepackage{textcomp}
 \usepackage[squaren]{SIunits}
 \usepackage{graphicx}
 \usepackage{url}
@@ -86,12 +86,13 @@
 	pdfauthor={Till J. Ernst (ernsttil)}
 ]{hyperref}
 
-%\usepackage{apacite}
+%Biblatex APA 6 Style
+\usepackage{apacite}
 
-\usepackage[american]{babel}
-\usepackage{csquotes}
-\usepackage[style=apa]{biblatex}
-\DeclareLanguageMapping{german}{german-apa}
+%\usepackage[american]{babel}
+%\usepackage{csquotes}
+%\usepackage[style=apa]{biblatex}
+%\DeclareLanguageMapping{german}{german-apa}
 
 \usepackage[toc,page]{appendix}
 
