@@ -89,8 +89,13 @@
 %% ANHANG 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \pagenumbering{Roman}
-%\begin{appendices}
 \appendix 
+\adjustmtc
+\renewcommand{\appendixname}{Anhang} 
+\renewcommand{\appendixtocname}{\appendixname} 
+\addappheadtotoc % Anhang in Hauptinhaltsverzeichnis aufnehmen
+%\appendixtableofcontents
+\begin{mtchideinmaintoc}[-1]   % Den folgenden Inhalt nicht im großen Inhaltsverzeichnis zeigen 
 \include{content/anhang_einleitung}
 \include{content/anhang_projektPlanung}
 \include{content/anhang_schulListe}
@@ -107,7 +112,7 @@
 %\include{content/anhang_c}
 %\include{content/anhang_d_Fragebogen}
 %\end{appendices}
-
+\end{mtchideinmaintoc} 
 % Blatt mit Unterschrift
 \includepdf{images/Bachelorarbeit_Unterschrift.pdf}
 
