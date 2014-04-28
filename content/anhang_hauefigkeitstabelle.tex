@@ -17,11 +17,59 @@
 \glsresetall
 
 \let\raggedsection\centering 
-\chapter{Häufgkeitstabelle}\label{chap.appendix_hauefigkeitstabelle}
+\chapter{Häufgkeitstabellen}\label{anhang.hauefigkeitstabelle}
 \let\raggedsection\raggedright 
 \begin{RaggedRight}
 %Demographische Daten
-\section{Startseite}\label{anhangSesction.Startseite}
+\section{Demographische Daten}\label{anhangHaeufigkeit.demoDaten}
+
+%Demographische Daten
+\section{Medien Multitasking Index -- MMI}\label{anhangHaeufigkeit.mmi}
+% Table HMM und LMM Häufigkeiten
+\begin{table}[H] 
+    \centering
+    \caption{Charakteristik der Mediennutzung, Häufigkeit}
+    \begin{tabular}[t]{|r r|r|r|r|r|} 
+        \hline
+        \multicolumn{6}{|c|}{\textbf{Mediennutzung basierend auf $MMI_{angepasst}$ und $MMI$}}\\ 
+        \hline       
+        \multicolumn{2}{|c}{} & \multicolumn{2}{c|}{$MMI_{angepasst}$} & \multicolumn{2}{c|}{$MMI$}\\
+        \multicolumn{2}{|c}{} & \multicolumn{1}{c|}{Häufigkeit} & \multicolumn{1}{c|}{Prozent}&\multicolumn{1}{c|}{Häufigkeit} & \multicolumn{1}{c|}{Prozent}\\
+        \hline
+        Gültig & LMMs & 188 & 13,8 & 181 & 13,2\\
+        & HMMs & 202 & 14,8 & 207 & 15,1\\
+        & NMMs & 969 & 70,9 & 971 & 71,0\\
+        &Gesamt & 1359 & 99,4 & 1359 & 99,4\\
+        Fehlend & & 8 & ,6 & 8 & ,6\\
+        Gesamt & & 1367 & 100 & 1367 & 100\\
+        \hline
+    \end{tabular}
+    \label{table.deskrptMeediennutzung}
+\end{table}
+
+% Sektion ACS
+\section{Aufmerksamekeitskontroll-Skala -- ACS}\label{anhangHaeufigkeit.ACS}
+% Table ACS
+\begin{table}[H] 
+    \centering
+    \caption{Charakteristik des Aufmerkasmkeitskontroll-Index, Häufigkeit und Verteilung}
+    \begin{tabular}[t]{|r r|R{27mm}|} 
+        \hline
+        \multicolumn{3}{|c|}{\textbf{Aufmerksamkeitskontroll-Skala -- $ACS$}}\\ 
+        \hline       
+        Gesamtwert (N) & Gültig & 1367\\
+        & Fehlend & 0\\
+        Mittelwert & $M$ & 53,43\\
+        Median & $med$ & 54,00\\
+        Standardabweichung & $SD$ & 6,82\\
+        Minimum & $Min$ & 34\\
+        Maximum & $Max$ & 75\\
+        \hline
+    \end{tabular}
+    \label{table.deskrptAcs}
+\end{table}
+% SEKTION work
+\section{Diverse Tabellen - work}\label{anhangHaeufigkeit.work}
 \begin{table}[ht] 
     \centering
     \caption{Soziodemografische Charakteristik, Häufigkeitstabelle}
@@ -41,26 +89,5 @@
         \hline
     \end{tabular}
     \label{table.sozidemoZivil}
-\end{table}
-\begin{table}[ht] 
-    \centering
-    \caption{Charakteristik des Medien-Multitasking- und Aufmerkasmkeitskontroll-Index, Häufigkeit und Verteilung}
-    \begin{tabular}[t]{|r r|r|r|r|} 
-        \hline
-        \multicolumn{5}{|c|}{\textbf{Multimedia-Multitasking-Index und Attentional Control Scale}}\\ 
-        \hline       
-        \multicolumn{2}{|c}{} & \multicolumn{1}{c|}{$MMI_{angepasst}$} & \multicolumn{1}{|c|}{$MMI$}& \multicolumn{1}{c|}{$ACS$}\\
-        \multicolumn{2}{|c}{} & \multicolumn{1}{c|}{(Ergebnis mit SMS)} & \multicolumn{1}{|c|}{(Ergebnis ohne SMS)}& \multicolumn{1}{c|}{}\\
-        \hline
-        Gesamtwert (N) & Gültig & 1359 & 1359 & 1367\\
-        & Fehlend & 8 & 8 & 0\\
-        Mittelwert & $M$ & 1,35 & 1,29 & 53,43\\
-        Median & $med$ & 1,16 & 1,10 & 54,00\\
-        Standardabweichung & $SD$ & 1,00 & ,97 & 6,82\\
-        Minimum & $Min$ & ,00 & ,00 & 34\\
-        Maximum & $Max$ & 6,48 & 6,38 & 75\\
-        \hline
-    \end{tabular}
-    \label{table.deskrptMedienAcs}
 \end{table}
 \end{RaggedRight}

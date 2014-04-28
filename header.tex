@@ -165,6 +165,11 @@
 \definecolor{lred}{RGB}{127,0,85}
 \definecolor{lblue}{RGB}{42,0,255}
 
+% Für Tabellen: Textausrichtung bei fester Spaltenbreite
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}} % linksbündig mit Breitenangabe
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} % zentriert mit Breitenangabe
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}} % rechtsbündig mit Breitenangabe
+
 
 %***********************************************************************
 % listing
