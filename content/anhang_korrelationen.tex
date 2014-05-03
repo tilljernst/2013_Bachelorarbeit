@@ -17,12 +17,12 @@
 \glsresetall
 
 \let\raggedsection\centering 
-\chapter{Korrelationen}\label{anhang.korrelationsTabellen}
+\chapter{Korrelationstabellen}\label{anhang.korrelationsTabellen}
 \let\raggedsection\raggedright 
 \begin{RaggedRight}
 Für eine verbesserte Übersicht, wurden die beiden Variablen $MMI_{angepasst}$ und $MMI$ wo immer sinnvoll zusammengefasst.
 %MMI zu SWB anhand Geschlecht
-\section{MMI zu SWB Aufteilung anhand Geschlecht}\label{anhangKorrelationen.geschlecht}
+\section{Korrelation zwischen MMI und SWB -- Aufteilung anhand Geschlecht}\label{anhangKorrelationen.geschlecht}
 %Table Geschlecht MMI SWB
 \begin{table}[H] 
     \centering
@@ -51,7 +51,7 @@ Für eine verbesserte Übersicht, wurden die beiden Variablen $MMI_{angepasst}$ 
 \end{table}
 
 %MMI zu SWB anhand Alter (Mediansplit)
-\section{MMI zu SWB Aufteilung anhand Alter (Mediansplit)}\label{anhangKorrelationen.alter}
+\section{Korrelation zwischen MMI und SWB -- Aufteilung anhand Alter (Mediansplit)}\label{anhangKorrelationen.alter}
 %Table Alter Mediansplit MMI SWB
 \begin{table}[H] 
     \centering
@@ -80,11 +80,11 @@ Für eine verbesserte Übersicht, wurden die beiden Variablen $MMI_{angepasst}$ 
 \end{table}
 
 %MMI zu SWB anhand Alter (Mediansplit)
-\section{MMI zu SWB Aufteilung anhand Mediennutzung}\label{anhangKorrelationen.medienNutzung}
+\section{Korrelation zwischen MMI und SWB -- Aufteilung anhand Mediennutzung}\label{anhangKorrelationen.medienNutzung}
 %Table Mediennutzung MMI SWB MMIangepasst
 \begin{table}[H] 
     \centering
-    \caption{Zusammenhang zwischen Medien-Multitasking und dem subjektivem Wohlbefinden Aufteilung anhand der Mediennutzung $MMI_{angepasst}$, Korrelationen}
+    \caption{Zusammenhang zwischen Medien-Multitasking und dem subjektivem Wohlbefinden -- Mediennutzung $MMI_{angepasst}$, Korrelationen}
     \begin{tabular}[t]{|L{5mm} R{15mm}|R{25mm}|R{16mm}|R{15mm}|R{15mm}|R{16mm}|R{15mm}|} 
         \hline
         \multicolumn{8}{|c|}{\textbf{Korrelationen aufgeteilt nach der Mediennutzung}}\\ 
@@ -142,5 +142,52 @@ Für eine verbesserte Übersicht, wurden die beiden Variablen $MMI_{angepasst}$ 
         \multicolumn{8}{l}{*. Die Korrelation ist auf dem Niveau von 0.05 (2-seitig) signifikant.}\\
     \end{tabular}
     \label{table.ergebnis.medienNutzungMmi}
+\end{table}
+
+%MMI zu ACS
+\section{Korrelation zwischen MMI und ACS}\label{anhangKorrelationen.mmiZuAcs}
+%Tabelle MMI zu ACS
+\begin{table}[H] 
+    \centering
+    \caption{Zusammenhang zwischen Medien-Multitasking und Aufmerksamkeitskontrolle, Korrelationen}
+    \begin{tabular}[t]{|l R{30mm}|r|R{16mm}|R{16mm}|} 
+        \hline
+        \multicolumn{5}{|c|}{\textbf{Korrelation zwischen $MMI_{angepasst}$, $MMI$ und $ACS$}}\\ 
+        \hline       
+        \multicolumn{2}{|c}{} & \multicolumn{1}{c|}{$MMI_{angepasst}$} & \multicolumn{1}{c|}{$MMI$} &\multicolumn{1}{c|}{$ACS$}\\
+        \hline
+        $MMI_{angepasst}$ & Korrelation nach Pearson & 1 & .990** & .078**\\
+        & Signifikanz (2-seitig) & & .000 & .004\\
+        & $N$ & 1359 & 1359 & 1359\\
+        \hline
+        $MMI$ & Korrelation nach Pearson & .990** & 1 & .077**\\
+        & Signifikanz (2-seitig) & .000 & & .005 \\
+         & $N$ & 1359 & 1359 & 1356\\
+        \hline
+        \multicolumn{5}{l}{**. Die Korrelation ist auf dem Niveau von 0.01 (2-seitig) signifikant.}
+    \end{tabular}
+    \label{table.korrelationMmiZuAcs}
+\end{table}
+
+% ACS zu SWB
+\section{Korrelation zwischen ACS und SWB}\label{anhangKorrelationen.acsZuSwb}
+%Table Korrelation MMI SWB
+\begin{table}[H] 
+    \centering
+    \caption{Zusammenhang zwischen Aufmersksamkeitskontrolle und subjektivem Wohlbefinden, Korrelationen}
+    \begin{tabular}[t]{|l R{25mm}|R{15mm}|R{15mm}|R{15mm}|R{15mm}|R{15mm}|R{15mm}|} 
+        \hline
+        \multicolumn{7}{|c|}{\textbf{Korrelation zwischen $ACS$, $FS$ und $SPANE$}}\\ 
+        \hline       
+        \multicolumn{2}{|c}{} & \multicolumn{1}{c|}{$ACS$} &\multicolumn{1}{c|}{$FS$} & \multicolumn{3}{c|}{$SPANE$}\\
+        \multicolumn{2}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} &\multicolumn{1}{c|}{$P$} &  \multicolumn{1}{c|}{$N$} & \multicolumn{1}{c|}{$B$}\\
+        \hline
+        $ACS$ & Korrelation nach Pearson & 1 & .265** & .280** & -.281** & .316** \\
+        & Signifikanz (2-seitig) & & .000 & .000 & .000 & .000 \\
+        & $N$ & 1367 & 1364 & 1361 & 1361 & 1361 \\
+        \hline
+        \multicolumn{7}{l}{**. Die Korrelation ist auf dem Niveau von 0.01 (2-seitig) signifikant.}
+    \end{tabular}
+    \label{table.korrelationAcsZuSwb}
 \end{table}
 \end{RaggedRight}
