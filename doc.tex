@@ -87,15 +87,15 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %% ANHANG 
+%% Anhang erscheint nicht im Inhaltsverzeichnis
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \pagenumbering{Roman}
 \appendix 
-\adjustmtc
 \renewcommand{\appendixname}{Anhang} 
 \renewcommand{\appendixtocname}{\appendixname} 
 \addappheadtotoc % Anhang in Hauptinhaltsverzeichnis aufnehmen
-%\appendixtableofcontents
-\begin{mtchideinmaintoc}[-1]   % Den folgenden Inhalt nicht im großen Inhaltsverzeichnis zeigen 
+\addtocontents{toc}{\protect\setcounter{tocdepth}{-1}} % die kommenden Anhänge erscheinen nicht im Inhaltsverzeichnis 
+
 \include{content/anhang_einleitung}
 \include{content/anhang_projektPlanung}
 \include{content/anhang_schulListe}
@@ -108,13 +108,10 @@
 \include{content/anhang_fragebogen}
 \include{content/anhang_hauefigkeitstabelle}
 \include{content/anhang_korrelationen}
-%\include{content/anhang_a}
-%\include{content/anhang_b}
-%\include{content/anhang_c}
-%\include{content/anhang_d_Fragebogen}
-%\end{appendices}
-\end{mtchideinmaintoc} 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%% Schlussblatt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Blatt mit Unterschrift
 \includepdf{images/Bachelorarbeit_Unterschrift.pdf}
 
