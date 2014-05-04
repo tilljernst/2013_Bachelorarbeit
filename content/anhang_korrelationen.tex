@@ -85,63 +85,32 @@ Für eine verbesserte Übersicht, wurden die beiden Variablen $MMI_{angepasst}$ 
 \begin{table}[H] 
     \centering
     \caption{Zusammenhang zwischen dem Medien-Multitasking und dem subjektivem Wohlbefinden, Korrelationen aufgeteilt anhand der Mediennutzung}
-    \begin{tabular}[t]{|L{5mm} R{15mm}|R{25mm}|R{16mm}|R{15mm}|R{15mm}|R{16mm}|R{15mm}|} 
+    \begin{tabular}[t]{|L{10mm} R{15mm}|R{25mm}|R{16mm}|R{15mm}|R{15mm}|R{16mm}|R{15mm}|} 
         \hline
         \multicolumn{8}{|c|}{\textbf{Korrelationen aufgeteilt nach der Mediennutzung}}\\ 
         \hline       
         \multicolumn{3}{|c|}{} & \multicolumn{1}{c|}{$MMI_{ang}$} &\multicolumn{1}{c|}{$FS$} & \multicolumn{3}{c|}{$SPANE$}\\
-        \multicolumn{3}{|l|}{Mediennutzung} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} &\multicolumn{1}{c|}{$P$} &  \multicolumn{1}{c|}{$N$} & \multicolumn{1}{c|}{$B$}\\
+        \multicolumn{3}{|l|}{Mediennutzung} & \multicolumn{1}{c|}{($MMI$)} & \multicolumn{1}{c|}{} &\multicolumn{1}{c|}{$P$} &  \multicolumn{1}{c|}{$N$} & \multicolumn{1}{c|}{$B$}\\
         \hline
-        \multicolumn{2}{|l|}{LMMs} & & & & & &\\
-        & $MMI_{ang}$ & Korrelation nach Pearson & 1 & -.021 & .080 & .002 & .042\\
-        & & Signifikanz (2-seitig) & & .778 & .276 & .976 & .569\\
-        & & $N$ & 188 & 188 & 187 & 187 & 187\\
+        %\multicolumn{2}{|l|}{LMMs} & & & & & &\\
+        LMMs & $MMI_{ang}$ ($MMI$) & Korrelation nach Pearson & 1 \newline (1) & -.021 (.022) & .080 (.153*) & .002 (-.040) & .042 (.106)\\
+        & & Signifikanz (2-seitig) & & .778 (.765) & .276 (.040) & .976 (.593) & .569 (.158)\\
+        & & $N$ & 188 (181) & 188 (181) & 187 (180) & 187 (180) & 187 (180)\\
         \hline
-        \multicolumn{2}{|l|}{HMMs} & & & & & &\\
-        & $MMI_{ang}$& Korrelation nach Pearson & 1 & -.178* & -.208** & .148* & -.200**\\
-        & & Signifikanz (2-seitig) & & .011 & .003 & .035 & .004\\
-        & & $N$ & 202 & 202 & 202 & 202 & 202\\
+        %\multicolumn{2}{|l|}{HMMs} & & & & & &\\
+        HMMs & $MMI_{ang}$ ($MMI$) & Korrelation nach Pearson & 1 \newline (1) & -.178* (-.108) & -.208** (-.168*) & .148* (.073) & -.200** (-.134)\\
+        & & Signifikanz (2-seitig) & & .011 (.122) & .003 (.015) & .035 (.294) & .004 (.055)\\
+        & & $N$ & 202 (207) & 202 (207) & 202 (207) & 202 (207) & 202 (207)\\
         \hline
-        \multicolumn{2}{|l|}{NMMs} & & & & & &\\
-        & $MMI_{ang}$ & Korrelation nach Pearson & 1 & -.005 & .003 & .091** & -.054\\
-        & & Signifikanz (2-seitig) & & .872 & .930 & .005 & .094\\
-        & & $N$ & 969 & 966 & 964 & 964 & 964\\
-        \hline
-        \multicolumn{8}{l}{**. Die Korrelation ist auf dem Niveau von 0.01 (2-seitig) signifikant.}\\
-        \multicolumn{8}{l}{*. Die Korrelation ist auf dem Niveau von 0.05 (2-seitig) signifikant.}\\
-    \end{tabular}
-    \label{table.ergebnis.medienNutzungMmiAngepasst}
-\end{table}
-%Table Mediennutzung MMI SWB MMI
-\begin{table}[H] 
-    \centering
-    \caption{Zusammenhang zwischen dem Medien-Multitasking und dem subjektivem Wohlbefinden, Korrelationen aufgeteilt anhand der Mediennutzung}
-    \begin{tabular}[t]{|L{5mm} R{15mm}|R{25mm}|R{16mm}|R{15mm}|R{15mm}|R{16mm}|R{15mm}|} 
-        \hline
-        \multicolumn{8}{|c|}{\textbf{Korrelationen aufgeteilt nach der Mediennutzung}}\\ 
-        \hline       
-        \multicolumn{3}{|c|}{} & \multicolumn{1}{c|}{$MMI$} &\multicolumn{1}{c|}{$FS$} & \multicolumn{3}{c|}{$SPANE$}\\
-        \multicolumn{3}{|l|}{Mediennutzung} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} &\multicolumn{1}{c|}{$P$} &  \multicolumn{1}{c|}{$N$} & \multicolumn{1}{c|}{$B$}\\
-        \hline
-        \multicolumn{2}{|l|}{LMMs} & & & & & &\\
-        & $MMI$ & Korrelation nach Pearson & 1 & .022 & .153* & -.040 & .106\\
-        & & Signifikanz (2-seitig) & & .765 & .040 & .593 & .158\\
-        & & $N$ & 181 & 181 & 180 & 180 & 180\\
-        \hline
-        \multicolumn{2}{|l|}{HMMs} & & & & & &\\
-        & $MMI$ & Korrelation nach Pearson & 1 & -.108 & -.168* & .073 & -.134\\
-        & & Signifikanz (2-seitig) & & .122 & .015 & .294 & .055\\
-        & & $N$ & 207 & 207 & 207 & 207 & 207\\
-        \hline
-        \multicolumn{2}{|l|}{NMMs} & & & & & &\\
-        & $MMI_{ang}$ ($MMI$) & Korrelation nach Pearson & 1 & .011 & .022 & .058 & -.023\\
-        & & Signifikanz (2-seitig) & & .730 & .494 & .071 & .466\\
-        & & $N$ & 971 & 968 & 966 & 966 & 966\\
+        %\multicolumn{2}{|l|}{NMMs} & & & & & &\\
+        NMMs & $MMI_{ang}$ ($MMI$) & Korrelation nach Pearson & 1 \newline (1) & -.005 (.011) & .003 (.022) & .091** (.058) & -.054 (-.023)\\
+        & & Signifikanz (2-seitig) & & .872 (.730) & .930 (.494) & .005 (.071) & .094 (.466)\\
+        & & $N$ & 969 (971) & 966 (968) & 964 (966) & 964 (966) & 964 (966)\\
         \hline
         \multicolumn{8}{l}{**. Die Korrelation ist auf dem Niveau von 0.01 (2-seitig) signifikant.}\\
         \multicolumn{8}{l}{*. Die Korrelation ist auf dem Niveau von 0.05 (2-seitig) signifikant.}\\
     \end{tabular}
-    \label{table.ergebnis.medienNutzungMmi}
+    \label{table.ergebnis.medienNutzung}
 \end{table}
 
 %MMI zu ACS
