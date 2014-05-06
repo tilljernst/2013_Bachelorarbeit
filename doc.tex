@@ -16,7 +16,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \include{header}
-
 \begin{document}
 \title{Auswirkung von Media-Multitasking auf das SWB}
 \author{Till J. Ernst}
@@ -26,8 +25,6 @@
 
 %PDF Bestimmungsblatt
 \includepdf{images/Bachelorarbeit_Bestimmungen.pdf}
-  
-\include{content/acronyms}
 
 % -> Keine Seitenzahlen bis TOC
 \pagenumbering{gobble} 
@@ -51,17 +48,15 @@
 % Abbildungsverzeichnis
 \listoffigures
 \newpage
-%\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
 
 % Tabellenverzeichnis
 \listoftables
 \newpage
-%\addcontentsline{toc}{chapter}{Tabellenverzeichnis}
 
 % Abkürzungsverzeichnis
 \include{content/glossar}
-\printglossary[title=Abkürzungen,style=listwithwidth]
-\glsaddall
+\printglossary[title=Abkürzungen]
+%\glsaddall % If all entries are to be printed the command
 \newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
