@@ -57,7 +57,7 @@
 	<array>
 		<dict>
 			<key>Bounds</key>
-			<string>{{924.60402596610209, 112.49352264404297}, {124, 64}}</string>
+			<string>{{899.21703099145907, 112.49352264404297}, {161.38699497464313, 59.120235443115234}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -81,7 +81,7 @@
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\b\fs36 \cf0 Kinder\
+\f0\b\fs36 \cf0 Elternschaft\
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \b0 \cf0 mit Kinder}</string>
@@ -594,21 +594,21 @@ zu SPANE-B r = .414}</string>
 			<integer>65</integer>
 			<key>Points</key>
 			<array>
-				<string>{1154.0653759460479, 424.4766830312613}</string>
-				<string>{1022.1022137779855, 571.31715440826054}</string>
+				<string>{1154.068737923516, 424.47787326058278}</string>
+				<string>{1022.1159588929156, 571.32038167604128}</string>
 			</array>
 			<key>Style</key>
 			<dict>
 				<key>stroke</key>
 				<dict>
 					<key>HeadArrow</key>
-					<string>FilledArrow</string>
+					<string>0</string>
 					<key>Legacy</key>
 					<true/>
 					<key>LineType</key>
 					<integer>1</integer>
 					<key>TailArrow</key>
-					<string>0</string>
+					<string>FilledArrow</string>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -728,21 +728,21 @@ r = - (.153)}</string>
 			<integer>62</integer>
 			<key>Points</key>
 			<array>
-				<string>{450.86370668445397, 128.8449715119892}</string>
-				<string>{197.59352117377748, 308.55650520348451}</string>
+				<string>{450.89662232116677, 128.85814374634964}</string>
+				<string>{197.7480416408263, 308.61859096919659}</string>
 			</array>
 			<key>Style</key>
 			<dict>
 				<key>stroke</key>
 				<dict>
 					<key>HeadArrow</key>
-					<string>FilledArrow</string>
+					<string>0</string>
 					<key>Legacy</key>
 					<true/>
 					<key>LineType</key>
 					<integer>1</integer>
 					<key>TailArrow</key>
-					<string>0</string>
+					<string>FilledArrow</string>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -843,21 +843,21 @@ LMMs}</string>
 			<integer>55</integer>
 			<key>Points</key>
 			<array>
-				<string>{476.47193516556371, 136.76253876926799}</string>
-				<string>{349.39079141823464, 304.35996895994799}</string>
+				<string>{476.47193501288956, 136.76253873899054}</string>
+				<string>{349.39079082823508, 304.35996881899689}</string>
 			</array>
 			<key>Style</key>
 			<dict>
 				<key>stroke</key>
 				<dict>
 					<key>HeadArrow</key>
-					<string>FilledArrow</string>
+					<string>0</string>
 					<key>Legacy</key>
 					<true/>
 					<key>LineType</key>
 					<integer>1</integer>
 					<key>TailArrow</key>
-					<string>0</string>
+					<string>FilledArrow</string>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -988,21 +988,21 @@ r = .137 (.134)}</string>
 			<integer>47</integer>
 			<key>Points</key>
 			<array>
-				<string>{574.28216736337413, 133.53858398096992}</string>
-				<string>{713.49875980037518, 268.34297901621574}</string>
+				<string>{574.28986635385627, 133.53625597316784}</string>
+				<string>{713.52541213069082, 268.33423665236779}</string>
 			</array>
 			<key>Style</key>
 			<dict>
 				<key>stroke</key>
 				<dict>
 					<key>HeadArrow</key>
-					<string>FilledArrow</string>
+					<string>0</string>
 					<key>Legacy</key>
 					<true/>
 					<key>LineType</key>
 					<integer>1</integer>
 					<key>TailArrow</key>
-					<string>0</string>
+					<string>FilledArrow</string>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -1164,21 +1164,21 @@ r = -.126 (-.101)}</string>
 			<integer>43</integer>
 			<key>Points</key>
 			<array>
-				<string>{547.6776332328277, 139.4957725872984}</string>
-				<string>{690.50473165730239, 437.39164126782003}</string>
+				<string>{547.68235219172334, 139.49506260548111}</string>
+				<string>{690.53440301156706, 437.38987891177737}</string>
 			</array>
 			<key>Style</key>
 			<dict>
 				<key>stroke</key>
 				<dict>
 					<key>HeadArrow</key>
-					<string>FilledArrow</string>
+					<string>0</string>
 					<key>Legacy</key>
 					<true/>
 					<key>LineType</key>
 					<integer>1</integer>
 					<key>TailArrow</key>
-					<string>0</string>
+					<string>FilledArrow</string>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -1279,21 +1279,21 @@ Frauen}</string>
 			<integer>39</integer>
 			<key>Points</key>
 			<array>
-				<string>{1172.2447464936015, 429.5201212514271}</string>
-				<string>{1046.1415913326091, 677.13869425251096}</string>
+				<string>{1172.2458974628737, 429.52035861525263}</string>
+				<string>{1046.1478347990897, 677.13953521505005}</string>
 			</array>
 			<key>Style</key>
 			<dict>
 				<key>stroke</key>
 				<dict>
 					<key>HeadArrow</key>
-					<string>FilledArrow</string>
+					<string>0</string>
 					<key>Legacy</key>
 					<true/>
 					<key>LineType</key>
 					<integer>1</integer>
 					<key>TailArrow</key>
-					<string>0</string>
+					<string>FilledArrow</string>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -1396,7 +1396,7 @@ R = .127 (.127)}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{1011.3561686275075, 208.85093432191488}, {124, 54}}</string>
+			<string>{{1007.0674609739908, 207.06803625456052}, {124, 54}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1474,21 +1474,21 @@ r = .253 (.254)}</string>
 			<integer>23</integer>
 			<key>Points</key>
 			<array>
-				<string>{527.52120675048423, 141.45463956878044}</string>
-				<string>{555.30182904519654, 347.92655994331045}</string>
+				<string>{527.52169002430037, 141.45461871539933}</string>
+				<string>{555.30394585758734, 347.92648459213626}</string>
 			</array>
 			<key>Style</key>
 			<dict>
 				<key>stroke</key>
 				<dict>
 					<key>HeadArrow</key>
-					<string>FilledArrow</string>
+					<string>0</string>
 					<key>Legacy</key>
 					<true/>
 					<key>LineType</key>
 					<integer>1</integer>
 					<key>TailArrow</key>
-					<string>0</string>
+					<string>FilledArrow</string>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -1516,8 +1516,8 @@ r = .253 (.254)}</string>
 			<integer>20</integer>
 			<key>Points</key>
 			<array>
-				<string>{1014.2416864924287, 173.59833842215721}</string>
-				<string>{1152.0004005678074, 318.6700238918649}</string>
+				<string>{1007.2569598617742, 170.27651987707586}</string>
+				<string>{1151.2984001659756, 318.93446202059675}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1558,21 +1558,21 @@ r = .253 (.254)}</string>
 			<integer>19</integer>
 			<key>Points</key>
 			<array>
-				<string>{630.89875287778204, 95.631990826244461}</string>
-				<string>{926.17165082954375, 136.21906859215343}</string>
+				<string>{631.0773840801661, 95.279894345536306}</string>
+				<string>{903.61990118568178, 131.82423733044621}</string>
 			</array>
 			<key>Style</key>
 			<dict>
 				<key>stroke</key>
 				<dict>
 					<key>HeadArrow</key>
-					<string>FilledArrow</string>
+					<string>0</string>
 					<key>Legacy</key>
 					<true/>
 					<key>LineType</key>
 					<integer>1</integer>
 					<key>TailArrow</key>
-					<string>0</string>
+					<string>FilledArrow</string>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -1642,21 +1642,21 @@ r = .253 (.254)}</string>
 			<integer>16</integer>
 			<key>Points</key>
 			<array>
-				<string>{634.7682300938659, 79.770036842975657}</string>
-				<string>{1012.3489247989222, 78.066901809067971}</string>
+				<string>{634.76815994229798, 79.765892044469339}</string>
+				<string>{1012.3486116943315, 78.049204572809487}</string>
 			</array>
 			<key>Style</key>
 			<dict>
 				<key>stroke</key>
 				<dict>
 					<key>HeadArrow</key>
-					<string>FilledArrow</string>
+					<string>0</string>
 					<key>Legacy</key>
 					<true/>
 					<key>LineType</key>
 					<integer>1</integer>
 					<key>TailArrow</key>
-					<string>0</string>
+					<string>FilledArrow</string>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -2161,7 +2161,7 @@ r = .134 (.127)}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2014-05-19 09:17:18 +0000</string>
+	<string>2014-05-19 11:04:17 +0000</string>
 	<key>Modifier</key>
 	<string>Till J. Ernst</string>
 	<key>NotesVisible</key>
