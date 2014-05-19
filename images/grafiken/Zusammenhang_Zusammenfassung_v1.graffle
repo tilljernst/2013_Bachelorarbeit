@@ -89,7 +89,7 @@
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{538.2668954269011, 641.44163300656487}, {186, 98}}</string>
+			<string>{{538.34465330825412, 645.45784532469986}, {186, 98}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -183,7 +183,7 @@ HMMs}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{374.45230361720286, 240.61292795820054}, {196, 100}}</string>
+			<string>{{372.08580032824744, 240.62037683251322}, {196, 100}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -247,7 +247,7 @@ r = .114 (.107)}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{804.87846183492036, 410.97767609890087}, {196, 144}}</string>
+			<string>{{804.72133743912275, 412.1473888711941}, {196, 144}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -332,8 +332,8 @@ zu SPANE-B r = .316}</string>
 			<integer>15</integer>
 			<key>Points</key>
 			<array>
-				<string>{1117.5534928647626, 402.74059415037345}</string>
-				<string>{475.91471305302474, 642.55992996288717}</string>
+				<string>{1117.7821999965056, 402.96760297150479}</string>
+				<string>{474.99021447958438, 645.60457160347357}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -472,7 +472,7 @@ zu SPANE-B r = .316}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{735.13450484363113, 574.108554358682}, {186, 98}}</string>
+			<string>{{735.24183915207414, 575.47044686367985}, {186, 98}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -552,8 +552,8 @@ zu SPANE-B r = .414}</string>
 			<integer>66</integer>
 			<key>Points</key>
 			<array>
-				<string>{925.94513713459639, 611.40654146477777}</string>
-				<string>{491.62075745046059, 663.36888310552581}</string>
+				<string>{926.19864071277004, 611.93528314681396}</string>
+				<string>{491.2252307463736, 667.59719553616185}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -650,7 +650,7 @@ M\'e4nner}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{166.1328094096767, 408.45669268164573}, {117, 54}}</string>
+			<string>{{162.74528325510056, 408.63327699114944}, {117, 54}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -770,8 +770,8 @@ r = - (.153)}</string>
 			<integer>61</integer>
 			<key>Points</key>
 			<array>
-				<string>{180.46333209843712, 369.90234479721636}</string>
-				<string>{348.29874864087975, 618.9961071214467}</string>
+				<string>{179.41430039240586, 370.10054379274288}</string>
+				<string>{338.363893199872, 619.11217451721461}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1044,7 +1044,7 @@ Digital Immigrants}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{514.82923349093687, 518.05452834269386}, {136, 54}}</string>
+			<string>{{514.07649968888836, 518.78845659027479}, {136, 54}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1122,8 +1122,8 @@ r = -.126 (-.101)}</string>
 			<integer>44</integer>
 			<key>Points</key>
 			<array>
-				<string>{666.94252963358247, 488.92187193805597}</string>
-				<string>{455.86540442277533, 629.78330868693467}</string>
+				<string>{667.02532667341347, 488.936234294158}</string>
+				<string>{453.85148838373942, 631.60337723621126}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1237,8 +1237,8 @@ Frauen}</string>
 			<integer>40</integer>
 			<key>Points</key>
 			<array>
-				<string>{953.46946112372075, 709.55631879632278}</string>
-				<string>{493.40007869358612, 682.26267615377822}</string>
+				<string>{953.31520686323984, 710.29761483350637}</string>
+				<string>{493.57711193411859, 687.68018793626231}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1684,8 +1684,8 @@ r = .253 (.254)}</string>
 			<integer>14</integer>
 			<key>Points</key>
 			<array>
-				<string>{505.73901804027975, 141.14618399753306}</string>
-				<string>{400.18115794798371, 615.13077277127786}</string>
+				<string>{505.06640942199846, 141.09651839440733}</string>
+				<string>{394.13691984457222, 615.26222693690011}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1776,7 +1776,7 @@ Mediansplit &lt; 24}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{285.27966094555399, 620.58491715972275}, {202.72042747148816, 110.68815612792969}}</string>
+			<string>{{269.03831168364371, 620.58491715972275}, {218.96177673339844, 122.86996459960938}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -1899,7 +1899,7 @@ Mediansplit &lt; 24}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{281.25670855888382, 377.79660009700319}, {136, 186}}</string>
+			<string>{{277.6736100239159, 377.80004181995059}, {136, 186}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1983,8 +1983,8 @@ r = -.200 (-)}</string>
 			<integer>56</integer>
 			<key>Points</key>
 			<array>
-				<string>{331.21961797241255, 371.82179479369421}</string>
-				<string>{375.52755642211076, 614.95244607174027}</string>
+				<string>{330.28991709271861, 371.87232593937836}</string>
+				<string>{368.07980988373203, 614.88730250623701}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -2008,7 +2008,7 @@ r = -.200 (-)}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{446.28802704392291, 443.48924886320947}, {124, 54}}</string>
+			<string>{{444.89933708623499, 443.60414078305041}, {124, 54}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -2086,8 +2086,8 @@ r = .134 (.127)}</string>
 			<integer>24</integer>
 			<key>Points</key>
 			<array>
-				<string>{540.06218535855578, 416.83013945691414}</string>
-				<string>{420.88376472566108, 618.09457102062629}</string>
+				<string>{539.59751470652134, 416.75699040149573}</string>
+				<string>{416.95328514828446, 618.72672550853929}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -2161,7 +2161,7 @@ r = .134 (.127)}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2014-05-19 09:01:30 +0000</string>
+	<string>2014-05-19 09:17:18 +0000</string>
 	<key>Modifier</key>
 	<string>Till J. Ernst</string>
 	<key>NotesVisible</key>
