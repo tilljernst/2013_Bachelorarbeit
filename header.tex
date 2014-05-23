@@ -166,6 +166,12 @@
 \newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}} % rechtsbündig mit Breitenangabe
 
 
+\makeatletter
+\renewcommand\thechapter{}
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+%\renewcommand\thesubsection{\@arabic\c@section.\@arabic\c@subsection}
+\makeatother
+
 %***********************************************************************
 % listing
 %***********************************************************************
