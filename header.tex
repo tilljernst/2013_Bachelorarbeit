@@ -72,6 +72,11 @@
 \usepackage{tocloft} % fancy TOC
 \usepackage{scrpage2}
 
+% Bereitstellen Anhang
+\usepackage[toc,page]{appendix}
+
+% Bereitstellung Glossar
+\usepackage[acronym]{glossaries}
 
 % Bereitstellung Hyperlinkfunktionen (PDF) (muss als letztes Paket geladen werden)
 \usepackage[
@@ -90,22 +95,8 @@
 
 %version 1 working
 %Biblatex APA 6 Style
-\usepackage{apacite}
+\usepackage[notocbib]{apacite} % erscheint nicht direkt im TOC
 
-%\usepackage[american]{babel}
-%\usepackage{csquotes}
-%\usepackage[
-%    style=apa,
-%    backend=biber
-%]{biblatex}
-%\DeclareLanguageMapping{german}{german-apa}
-%\addbibresource{Bibliography.bib}
-
-% Bereitstellen Anhang
-\usepackage[toc,page]{appendix}
-
-% Bereitstellung Glossar
-\usepackage[acronym]{glossaries}
 \makeglossaries
 
 
@@ -126,6 +117,8 @@
 \rohead[\pagemark]{\pagemark} % seitenzahl im kopf rechts (in [] für Chapter)
 \cfoot{} % seitenzahl in der mitte unten entfernen
 \setkomafont{pagehead}{\normalfont} % Formatierung von Header Beschriftung
+
+% Titel und Kapitel anpassen
 
 %define page margin
 \geometry{a4paper, top=25mm, left=25mm, right=25mm, bottom=25mm,headsep=10mm,footskip=10mm}
