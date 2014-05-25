@@ -40,7 +40,7 @@
 \usepackage{listings}
 \usepackage{color}
 \usepackage{rotating}
-\usepackage{titlesec}
+\usepackage[compact]{titlesec} % space before and after sections
 \usepackage{mathptmx} 
 \usepackage[scaled=.90]{helvet}
 %\usepackage{courier}
@@ -108,11 +108,15 @@
 %create index
 \makeindex
 
-% TOC Tiefe
+% -----------------------------------------------------------------
+% TOC 
+% -----------------------------------------------------------------
+% toc deep
 \setcounter{tocdepth}{1} % bis und mit unterkapitel
 
+% -----------------------------------------------------------------
 % Header und Footer
-% - - - - - - - - - -
+% -----------------------------------------------------------------
 \pagestyle{scrheadings} % KOMA script
 \clearscrheadfoot % formatierung zurücksetzen
 \lohead[Einfluss von Medien-Multitasking auf das subjektive Wohlbefinden]{Einfluss von Medien-Multitasking auf das subjektive Wohlbefinden}
@@ -120,16 +124,27 @@
 \cfoot{} % seitenzahl in der mitte unten entfernen
 \setkomafont{pagehead}{\normalfont} % Formatierung von Header Beschriftung
 
+% -----------------------------------------------------------------
 % Titel und Kapitel anpassen
+% -----------------------------------------------------------------
+% Abstand vor dem Titel (chapter)
+\renewcommand*{\chapterheadstartvskip}{\vspace*{0mm}}
+% Abstand nach dem Titel (chapter)
+\renewcommand*{\chapterheadendvskip}{\vspace{5mm}}
 
+
+% -----------------------------------------------------------------
 %define page margin
+% -----------------------------------------------------------------
 \geometry{a4paper, top=25.4mm, left=25.4mm, right=25.4mm, bottom=25.4mm,headsep=10mm,footskip=10mm}
 % headsep - Legt den Abstand zwischen der Kopfzeile und dem Rumpf der Seite fest.
 % footskip - Legt den Abstand zwischen dem Rumpf der Seite und der zugehörigen Fußzeile fest.
 
 \setlength{\emergencystretch}{1em}
 
+% -----------------------------------------------------------------
 % Für Tabellen: Textausrichtung bei fester Spaltenbreite
+% -----------------------------------------------------------------
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}} % linksbündig mit Breitenangabe
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} % zentriert mit Breitenangabe
 \newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}} % rechtsbündig mit Breitenangabe
