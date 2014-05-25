@@ -140,15 +140,18 @@
 
 % Section
 %----------
-\titleformat{\section}[hang] {\normalfont\large\bfseries}{\thesection}{10pt}{}
+\titleformat{\section}[hang] {\normalfont\large\bfseries}{}{0pt}{} %{\thesection}
 \titlespacing*{\section}{0pt}{8pt}{0pt}
 
 % SubSection
 %----------
-\titleformat{\subsection}[hang] {\normalfont\normalsize\bfseries}{\thesubsection}{8pt}{}
+\titleformat{\subsection}[runin]{\normalfont\normalsize\bfseries}{}{25pt}{}[\,\,] %\thesubsection
 \titlespacing*{\subsection}{0pt}{5pt}{0pt}
 
-
+% SubsubSection
+%----------
+\titleformat{\subsubsection}[runin]{\normalfont\normalsize\bfseries\itshape}{}{}{\,\,\,\,\,\,\,\,\,\,}[\,\,] %\thesubsection
+\titlespacing*{\subsubsection}{0pt}{5pt}{0pt}
 
 % Abstand vor dem Titel (chapter)
 %\renewcommand*{\chapterheadstartvskip}{\vspace*{0mm}}
