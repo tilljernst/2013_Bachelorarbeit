@@ -30,7 +30,7 @@
 \pagenumbering{gobble} 
 
 % Danksagung
-\begin{RaggedRight}
+%\begin{RaggedRight}
 \include{content/danksagung}
 
 % Vorwort
@@ -47,6 +47,7 @@
 \newpage
 
 % Abbildungsverzeichnis
+%\def\listfigurename{\centerline{\textbf{\large{Abbildungsverzeichnis}}}} 
 \listoffigures
 \newpage
 
@@ -56,6 +57,7 @@
 
 % Abkürzungsverzeichnis
 \include{content/glossar}
+\glossarystyle{altlist}
 \printglossary[title=Abkürzungsverzeichnis]
 \glsaddall % If all entries are to be printed the command
 \newpage
@@ -82,7 +84,7 @@
 
 % Literaturverzeichnis
 \include{content/literatur}
-\end{RaggedRight}
+%\end{RaggedRight}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %% ANHANG 

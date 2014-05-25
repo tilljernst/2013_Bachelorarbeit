@@ -98,7 +98,7 @@
 % nosectionbib - % Bibliography is a chapter
 
 % Bereitstellung Glossar
-\usepackage{glossaries} %[acronym]
+\usepackage[nopostdot]{glossaries} %[nopostdot] - kein Punkt am Ende der Beschreibung
 \makeglossaries
 
 
@@ -128,10 +128,32 @@
 % -----------------------------------------------------------------
 % Titel und Kapitel anpassen
 % -----------------------------------------------------------------
+
+% Chapter (see package titlesec)
+%----------
+%\titleformat{hcommandi}[hshapei]{hformati}{hlabeli}{hsepi}{hbefore-codei}[hafter-codei]
+%\titlespacing*{hcommandi}{hlefti}{hbefore-sepi}{hafter-sepi}[hright-sepi]
+% Titelformat
+\titleformat{\chapter}[display] {\normalfont\huge\bfseries\centering}{}{0pt}{\huge}
+% Abstand vor und nach dem Titel-Chapter
+\titlespacing*{\chapter}{0pt}{0pt}{0pt}
+
+% Section
+%----------
+\titleformat{\section}[hang] {\normalfont\large\bfseries}{\thesection}{5pt}{\large}
+\titlespacing*{\section}{0pt}{5pt}{0pt}
+
+% SubSection
+%----------
+\titleformat{\subsection}[hang] {\normalfont\normalsize\bfseries}{\thesubsection}{5pt}{\normalsize}
+\titlespacing*{\subsection}{0pt}{5pt}{0pt}
+
+
+
 % Abstand vor dem Titel (chapter)
-\renewcommand*{\chapterheadstartvskip}{\vspace*{0mm}}
+%\renewcommand*{\chapterheadstartvskip}{\vspace*{0mm}}
 % Abstand nach dem Titel (chapter)
-\renewcommand*{\chapterheadendvskip}{\vspace{5mm}}
+%\renewcommand*{\chapterheadendvskip}{\vspace{5mm}}
 
 % -----------------------------------------------------------------
 %define page margin
