@@ -20,9 +20,9 @@
 	numbers=noenddot,
 	oneside,
 	12pt,
-	halfparskip, % Absatzabstand
-	smallheadings, % header sind klein
-	tocleft,
+	parskip=half, % Absatzabstand
+	headings=small, % header sind klein
+	toc=flat, %
 	ngerman,
 	version=first
 ]{scrreprt}
@@ -122,7 +122,8 @@
 \lohead[Einfluss von Medien-Multitasking auf das subjektive Wohlbefinden]{Einfluss von Medien-Multitasking auf das subjektive Wohlbefinden}
 \rohead[\pagemark]{\pagemark} % seitenzahl im kopf rechts (in [] für Chapter)
 \cfoot{} % seitenzahl in der mitte unten entfernen
-\setkomafont{pagehead}{\normalfont} % Formatierung von Header Beschriftung
+\setkomafont{pageheadfoot}{\normalfont} % Formatierung von Header Beschriftung
+\setlength{\headheight}{1.1\baselineskip}
 
 % -----------------------------------------------------------------
 % Titel und Kapitel anpassen
@@ -131,7 +132,6 @@
 \renewcommand*{\chapterheadstartvskip}{\vspace*{0mm}}
 % Abstand nach dem Titel (chapter)
 \renewcommand*{\chapterheadendvskip}{\vspace{5mm}}
-
 
 % -----------------------------------------------------------------
 %define page margin
