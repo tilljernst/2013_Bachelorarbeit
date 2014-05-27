@@ -69,6 +69,8 @@
 \usepackage{scrhack}
 \usepackage{wallpaper}
 \usepackage{titleref}
+%\usepackage{tocloft} % fancy TOC
+\usepackage{tocvsec2}
 \usepackage{scrpage2} % KOMA script für Header und Footer
 
 % Bereitstellen Anhang
@@ -111,7 +113,8 @@
 % TOC 
 % -----------------------------------------------------------------
 % toc deep
-\setcounter{tocdepth}{1} % bis und mit unterkapitel
+%\setcounter{tocdepth}{1} % bis und mit unterkapitel
+
 
 
 
@@ -134,10 +137,11 @@
 %----------
 %\titleformat{hcommandi}[hshapei]{hformati}{hlabeli}{hsepi}{hbefore-codei}[hafter-codei]
 %\titlespacing*{hcommandi}{hlefti}{hbefore-sepi}{hafter-sepi}[hright-sepi]
+
 % Titelformat
 \titleformat{\chapter}[display] {\normalfont\LARGE\bfseries\centering}{}{0pt}{}
 % Abstand vor und nach dem Titel-Chapter
-\titlespacing*{\chapter}{0pt}{0pt}{0pt}
+\titlespacing*{\chapter}{0pt}{0pt}{3pt}
 
 % Section
 %----------
